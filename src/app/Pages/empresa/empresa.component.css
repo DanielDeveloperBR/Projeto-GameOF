@@ -1,0 +1,39 @@
+body{
+    background-color: #0093E9;
+    /* background-image: url(bgcolor.png); */
+    background-image: linear-gradient( to left, blue, red);
+    font-size: 5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 200px;
+}
+.nomeEmpresa{
+    /* margin-top: -10vh; */
+    font-size: 5vh;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 12vh;
+}
+.horarios p{
+    width: 10vh;
+    padding: 30px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    
+}
+
+.horarios{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+ 
+}
+.horarios > p{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}

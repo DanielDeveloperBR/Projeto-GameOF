@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtz0WUALqXAi91Q21jlua0uHjlaujMM_og5Mq2Jhl9vA&s'); */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-left: 20px;
+}

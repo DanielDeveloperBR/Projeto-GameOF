@@ -1,0 +1,15 @@
+<div>
+  <h1 style="color: white">Personagens</h1>
+</div>
+
+<div class="teste">
+  <div class="col p-2" *ngFor="let img of images; let i = index">
+    <div class="card">
+      <img [src]="img" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Poder: {{ titulos[i] }}</h5>
+        <p class="card-text">Nome: {{ nomes[i] }}</p>
+      </div>
+    </div>
+  </div>
+</div>

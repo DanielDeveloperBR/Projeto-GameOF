@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" [routerLink]="'/'">Projeto Final</a>
+
+		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+
+		<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse ">
+			<ul class="navbar-nav active">
+				<li class="nav-item">
+					<a class="nav-link" [routerLink]="'./sobre'" (click)="isMenuCollapsed = true">Sobre</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" [routerLink]="'./personagens'" (click)="isMenuCollapsed = true">Personagens</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" [routerLink]="'./contatos'" (click)="isMenuCollapsed = true">Contatos</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
